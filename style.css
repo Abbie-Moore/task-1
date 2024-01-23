@@ -69,3 +69,10 @@ nav ul li:hover{
 nav ul li:hover a{
   color:#CC0000;
 }
+
+footer{
+  background-color:#532473;
+  color:#ffffff;
+  text-align:center;
+  padding:3px;
+}
