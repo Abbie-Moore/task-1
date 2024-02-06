@@ -1,31 +1,30 @@
 /*This is main style file*::after
 
 /*colour scheme
-pink #F06BF2
-purple #532473
-purplyblue #7630D9
-darkishcyan #04588C
-bright turquoise #79F2E6
+purple #7630D9
+matt pink #FEB8C2
+blackberry yoghurt #E7BADB
+fringy flower #B4E4BA
+frosty day #C2EEF7
+twinkling lights #FFFAC3
 white #FFFFFF
-whiteish #FCFCFC
-black #000
-red #CC0000*/
+black #000000
+*/
 
 h1{
-  color: #04588C;
+  color: #7630D9;
   font-size: 50px;
-  
+}
+
+h2{
+  color: #7630D9;
 }
 p{
-  color:#79F2E6;
+  color:#000;
 }
-.bg-white{
-  background-color:#FCFCFC;
-  padding:20px;
-  margin:5px;
-}
+
 .bg-purple{
-  background-color:#532473;
+  background-color:#B17BD5;
   padding:20px;
   margin:5px;
 }
@@ -40,8 +39,39 @@ p{
   margin:5px;
 }
 
+.bg-mattpink{
+  background-color:#FEB8C2;
+  padding:20px;
+  margin:5px;
+}
+
+.bg-blackberryyoghurt{
+  background-color:#E7BADB;
+  padding:20px;
+  margin:5px;
+}
+
+.bg-fringyflower{
+  background-color:#B4E4BA;
+  padding:20px;
+  margin:5px;
+}
+
+.bg-frostyday{
+  background-color:#C2EEF7;
+  padding:20px;
+  margin:5px;
+}
+
+.bg-twinklinglights{
+  background-color:#FFFAC3 ;
+  padding:20px;
+  margin:5px;
+}
+
+
 nav{
-  background-color:#7630D9;
+  background-color:#FEB8C2;
   border:1px solid #dedede;
   color:#ffffff;
   display:block;
@@ -50,6 +80,7 @@ nav{
 }
 
 nav ul li{
+
   display:inline-block;
   list-style-type:none;
 }
@@ -63,7 +94,7 @@ nav ul li a{
 }
 
 nav ul li:hover{
-  background-color: #000;
+  background-color: #511C9B;
 }
 
 nav ul li:hover a{
@@ -71,7 +102,7 @@ nav ul li:hover a{
 }
 
 footer{
-  background-color:#532473;
+  background-color:#FEB8C2;
   color:#ffffff;
   text-align:center;
   padding:3px;
@@ -80,7 +111,7 @@ footer{
 
 table, th, td {
   border: 3px solid;
-  border-color: #ddd;
+  border-color: #ffffff;
 }
 
 table {
